@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHome"
+            android:text="اَللّهُمَّ يَسِّرْ وَ لَا تُعَسِّر "
+            android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="250dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBaca"
+            android:text="Allahumma Yasir wala tu’assir."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="300dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtArti"
+            android:text="Artinya: “Ya Allah permudahlah dan jangan Engkau persulit!”"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="350dp"/>
+
+</RelativeLayout>
